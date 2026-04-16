@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>QUESTIONSS</title>
+    <link rel="stylesheet" href = "mc.css">
+</head>
+<body>
+    <div id = "playing">
+        <label> Time to test how locked in you are!</label> <br>
+        <label id = "exclaim"> WITH CHINESE!</label> <br>
+        <label id = "notif"> VOLUME UP!!</label> <br>
+        <img src = "pictures/sneaky.png" style = "width: 200px; height: auto; float: left; "> 
+        <img src = "pictures/sneaky.png" style = "width: 200px; height: auto; float: right;">
+        <img src = "pictures/sound.png" style = "width: 200px; height: auto;"> <br>
+        <button id = "playnoise" onclick="play1()"> Click to listen! </button> <br> <br>
+        <label id = "Question"> Which song is playing by my goat Michael Wong?</label>
+
+        <br>
+        <br>
+    </div>
+
+
+    <div id = "audio">
+        <audio src = "sounds/Correct.mp3" id = "Ding"> </audio> <br>
+        <audio src = "sounds/Incorrect.mp3" id = "X"> </audio>
+        <audio src = "sounds/singing.mp3" id = "bsinging"> </audio>
+        <audio src = "sounds/HDD.mp3" id = "Happy_death"> </audio> <br>
+        <audio src = "sounds/MW.mp3" id = "romantic"></audio>
+        <audio src = "sounds/Love.mp3" id = "love"></audio>
+        <audio src = "sounds/Icu.mp3" id = "ICU"></audio>
+        <audio src = "sounds/Ge.mp3" id = "GE"></audio>
+        <audio src = "sounds/Xroom.mp3" id = "XROOM"></audio>
+        <audio src = "sounds/Laf.mp3" id = "LAF"></audio>
+
+
+    </div>
+
+    <div id = "choices">
+        <button id = "choice1" onclick="checkbutton(this)"> 童話 </button>
+        <button id = "choice2" onclick="checkbutton(this)"> 單戀 </button>
+        <button id = "choice3" onclick="checkbutton(this)"> 少年</button>
+    </div>
+    <img src = "pictures/xh1.png"  id = "XH" style = "display: none; width: 300px; height: auto;">
+    <img src = "pictures/crowd.png" id = "crowd1" style = "display: none; width: 300px; height: auto;">
+    <img src = "pictures/crowd.png" id = "crowd2" style = "display:none; width: 300px; height: auto;">
+    <img src = "pictures/crowd.png" id = "crowd3" style = "display:none; width: 300px; height: auto;">
+
+    <br><br> <label id = "correct"></label>
+
+
+
+
+    <script src = "mc.js"></script>
+</body>
+</html>

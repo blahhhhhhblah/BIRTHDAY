@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(255, 220, 169);
+    font-family:Arial, Helvetica, sans-serif;
+}
+#playing{
+    text-align: center;
+}
+#exclaim{
+    font-size: 2em;
+    color: red;
+
+}
+#notif{
+    font-size: 1.5em;
+}
+#playnoise{
+    padding: 15px  25px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.05em;
+    border-radius: 20px;
+    background-color: rgb(29, 50, 204);
+    color: white;
+}
+
+#choices{
+    text-align: center;
+}
+
+#choice1{
+    background-color: rgb(255, 0, 0);
+    padding: 15px  25px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.05em;
+    border-radius: 20px;
+    color: white;
+}
+#choice2{
+    background-color: rgb(255, 0, 255);
+    padding: 15px  25px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.05em;
+    border-radius: 20px;
+    color: white;
+}
+#choice3{
+    background-color: rgb(128, 0, 128);
+    padding: 15px  25px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.05em;
+    border-radius: 20px;
+    color: white;
+}
+#correct{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

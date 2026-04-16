@@ -1,0 +1,28 @@
+#quickcheck{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: blue;
+}
+#big{
+    text-align: center;
+    color:blue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#pics1{
+    float: left;
+}
+#pics2{
+    float: right;
+}
+body{
+    background-color: rgb(255, 220, 169);
+}
+#checkdetails{
+    padding: 10px  20px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.05em;
+    border-radius: 20px;
+    background-color: rgb(29, 50, 204);
+    color: white;
+}
